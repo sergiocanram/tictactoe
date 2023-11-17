@@ -1,0 +1,22 @@
+.celda {
+    width: 80px;
+    height: 80px;
+    border: 5px solid lightgoldenrodyellow;
+    box-shadow: 0 0 0 4px blue;
+    line-height: 80px;
+    font-size: 80px;
+    cursor: pointer;
+}
+
+#contenedorGeneral {
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+
+#contenedorCuadros {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 250px;
+    margin: auto;
+}
+
