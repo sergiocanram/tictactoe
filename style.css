@@ -1,15 +1,15 @@
 .celda {
     width: 80px;
     height: 80px;
-    border: 5px solid lightgoldenrodyellow;
-    box-shadow: 0 0 0 4px blue;
+    border: 5px solid grey;
+    box-shadow: 0 0 0 4px skyblue;
     line-height: 80px;
     font-size: 80px;
     cursor: pointer;
 }
 
 #contenedorGeneral {
-    font-family: "Permanent Marker", cursive;
+    font-family: consolas, monospace;
     text-align: center;
 }
 
