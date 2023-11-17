@@ -73,11 +73,11 @@ function checkWinner(){
     } //for
 
     if (roundWon) {
-        textoEstado.textContent = `${currentPlayer} ha ganado! Enhorabuena! Qué máquina!!`;
+        textoEstado.textContent = `¡${currentPlayer} ha ganado! ¡Enhorabuena! ¡Qué máquina!!`;
         running = false;
     }
     else if (!options.includes("")){
-        textoEstado.textContent = `Empate!!!Sois igual de buenos (O igual de malos)`;
+        textoEstado.textContent = `¡Empate!Sois igual de buenos (O igual de malos)`;
         running = false;
     } else {
         changePlayer();
